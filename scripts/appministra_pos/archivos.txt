@@ -1,0 +1,8 @@
+
+//Archivo de sincronización
+
+
+/webapp/modulos/pos
+/webapp/modulos/prontipagos
+/webapp/modulos/appministra
+/webapp/modulos/SAT

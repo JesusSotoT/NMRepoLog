@@ -1,0 +1,88 @@
+#title-container {
+	font-size: 16px !important;
+	text-align: left;
+	padding: .25em 1em;
+	background: #ddd;
+	background: linear-gradient(to bottom, #fafafa 0%,#eeeeee 100%);
+	border-bottom: 1px solid #ddd;
+	position: relative;
+	top: 0;
+}
+
+hr {
+	margin-top: .05em !important;
+}
+
+#form-container{
+	padding: 1.5em;
+	position: relative;
+	display: block;
+	margin-bottom: 1.5em;
+} 
+
+.required {
+	color: red;
+	font-weight: bold;
+}
+
+#ver_sucursales{
+	font-size: 13px;
+	max-height: 30em;
+}
+
+thead{
+	background: #efefef;
+}
+
+table, th {
+	text-align: center;
+	border: none !important;
+}
+
+table>thead>tr>th, table>tbody>tr>td{
+	vertical-align: middle !important;
+}
+
+th,td {
+	hyphens: auto;
+}
+
+td{
+	word-wrap: break-word;
+}
+
+iframe{
+	border:none;
+	height: 100% !important;
+	width: 100% !important;
+}
+
+
+.col-md-2 > .btn {
+	margin-bottom: .5em;
+}
+
+#volver{
+	font-weight: 400;
+}
+
+.row
+{
+    margin-bottom:.5em !important;
+}
+.container
+{
+    margin-top:20px;
+}
+.tab-content{
+	border: 1px solid #ddd;
+}
+.margin-sides-0{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.add-sucursal{
+	color: white !important;
+	background-image: linear-gradient(rgb(51, 122, 183) 0px, rgb(38, 90, 136) 100%) !important;
+	border-color: rgb(36, 85, 128) !important;
+}

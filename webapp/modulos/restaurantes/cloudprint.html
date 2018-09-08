@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script src="http://www.google.com/cloudprint/client/cpgadget.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+       var url = window.location;
+        alert(url);
+        var gadget = new cloudprint.Gadget();
+        gadget.setPrintButton(cloudprint.Gadget.createDefaultPrintButton("GCP_Button"));
+        gadget.setPrintDocument("url", "dededededed", url);
+    });
+
+function imprime(){
+    alert('entro');
+    var url = window.location;
+  
+    alert(url);
+    var gadget = new cloudprint.Gadget();
+        gadget.setPrintDocument("url",'html', url);
+    gadget.openPrintDialog();
+
+}
+
+</script>
+<h1>Esto es una prueba</h1>
+<div>
+    esto es una prueba de impresion en la pagina
+    <table>
+        <tr>
+        <td>idjidejide</td>
+        <td>odeodeojde</td>
+        <td>oijfirfjirj</td>
+        </tr>
+        <tr>
+        <td>idjidejide</td>
+        <td>odeodeojde</td>
+        <td>oijfirfjirj</td>
+        </tr>
+    </table>
+</div>
+
+
+
+<div id="GCP_Button"></div>
+
+<input type="button" value="print" onclick="imprime();">
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+body
+{
+    overflow-x: hidden;
+}
+.btn-success
+{
+    background-color: #80BA12 !important;
+}
+#divPedidos_Comandas
+{
+
+    margin-bottom:2%;
+}
+.divTitulosPedido
+{
+    border-bottom: 2px solid #CCCCCC;
+    margin-bottom: 1%;
+}
+.titulospedido > div
+{
+    border: 1px solid;
+    text-align:center;
+    text-transform: uppercase;
+}
+.pedido:first-child
+{
+    margin-top: 1%;
+}
+.pedido{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.productosPedidos > .pedido >div
+{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    min-height: 40px;
+}
+/*.productosPedidos > .pedido:last-child
+{
+    border-bottom: 1px solid !important;
+}*/
+.opcionalAdicional:last-child
+{
+    border-bottom: 1px solid !important;
+}
+.opcionalAdicional 
+{
+    /*border-bottom: 1px solid !important;*/ 
+    border-top: 0px solid !important;
+}
+.titulosPedidos > .btn
+{
+    margin-top: 3px;
+    /*width: 100%;*/
+}
+.productosPedidos > div:nth-child(odd) {
+    background-color: #CCC;
+    color:#000
+}
+
+.productosPedidos > div:nth-child(even) {
+    background-color: #FFF;
+    color:#000;
+}
+.divAccionesButton
+{
+    position: relative;
+}
+.flecha
+{
+    font-size: 29px;
+    text-align: center;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.comandas{
+    display: none;
+}
+.zona
+{
+    display: block;
+}
+.error
+{
+    color: red;
+}
+/*Css de zona*/
+.div-btn
+{
+    /*border: 2px outset #80BA12;*/
+    border-radius: 22px;
+    /*height: 85px;*/
+    margin-left: 6%;
+    padding-top: 30px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    /*background-color: #80BA12;*/
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.div-btn:active
+{
+    /*border:inset 2px #80BA12;*/
+    /*background-color: #CCC;*/
+}
+.contBotones
+{
+    margin-top: 4%;
+}
+.contcomanda
+{
+    margin-top: 5%;
+}
+.cancelarProducto
+{
+    text-align: left !important;
+}
+.terminarProducto
+{
+    text-align: left !important;
+}

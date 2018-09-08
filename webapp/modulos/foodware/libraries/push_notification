@@ -1,0 +1,56 @@
+<?php
+
+	//Cargar la clase de conexión padre
+    require_once("models/pdo_connection.php");
+
+	class PushNotification
+	{
+
+		const API_KEY = "AIzaSyCOoBuThk_UzHs5skEVqa9Vmdv4X9BaLPU";
+
+		function __construct() {
+
+		}
+
+		function __destruct() {
+
+		}
+
+		function getConectedDevices() {
+			$query = "SELECT push FROM api_token_foodware_nativo WHERE activo = :activo;";
+			$query = DB::queryArray($query, array("activo" => 1));
+			return $query["registros"];
+		}
+
+		function notify($devices) {
+			try{
+                foreach ($devices as $device) {
+                    $google = 'https://fcm.googleapis.com/fcm/send';
+                    $parameters = array (
+                        'registration_ids' => array($device),
+                        'data' => array ("message" => "update_data")
+                    );
+                    $parameters = json_encode($parameters);
+                    $headers = array (
+                        'Authorization: key=' . self::API_KEY,
+                        'Content-Type: application/json'
+                    );
+                    $ch = curl_init();
+                    curl_setopt($ch, CURLOPT_URL, $google);
+                    curl_setopt($ch, CURLOPT_POST, true);
+                    curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                    curl_setopt($ch, CURLOPT_POSTFIELDS, $parameters);
+                    $google_response = curl_exec($ch);
+                    curl_close($ch);
+                }
+                $json = array("success" => true);
+            } catch(Exception $e){
+                $json = array("error" => false, "mensaje" => $e->getMessage());
+            }
+            return $json;
+		}
+
+	}
+
+?>

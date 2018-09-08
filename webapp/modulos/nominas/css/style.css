@@ -1,0 +1,221 @@
+@charset "UTF-8";	
+	
+	body{
+		font-family:Arial, Helvetica, sans-serif;/*Fuente de la pagina-------------------*/
+		font-size:12px;/*Tamaño de fuente-------------------*/
+	}
+	
+    footer{
+		clear: both;
+		position: relative;
+		height: 10%;
+		width: 103%;
+		margin: 0;
+		bottom: -8px;
+		left: -2%;
+	}
+
+.lateral{   /*Color de fondo de los divs-------------------*/
+    float:left;
+    background-color:#EEEEEE;/*color gris claro-------------------*/
+    width:806px;
+
+}
+
+
+
+table td{
+    font-size:12px;
+}
+
+[id='buttons']{
+    width:800px;
+    float:left;
+    margin-top:20px;
+    text-align:right;
+}
+
+.ui-widget-header/*titulo de pop up UI-------------------*/
+{
+    background-color: #4c4c4c !important;
+    background-image:none;
+    color:white;
+    border:0px;
+}
+
+#capturaMovimiento,#Proveedores,#ProveedoresLista,#copiarPoliza/*fondo de pop up de captura-------------------*/
+{
+    display:none;
+    background-color:#EEEEEE;
+    width:500px;
+    height:500px;
+    border:1px solid #CCC;
+}
+.captura td
+{
+    width:265px;
+    height:30px;
+}
+
+#lista td
+{
+    width:100px;
+    height:30px;
+}
+.captura2 td
+{
+    width:350px;
+    height:30px;
+}
+
+.over{
+    background-color:#c0d459 !important;
+    color:#FFF;
+}
+.out{
+    background-color:;
+    color:;
+}
+
+#aux{
+    width:100%;
+    height:35%;
+    border:0px solid red;
+    position: relative;
+}
+a.bot
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+a.bot:hover
+{
+    text-decoration: underline;
+    color:white;
+}
+
+
+/**********/
+.repTitulo{
+    background: #fafafa;
+    text-align: center;
+    margin: 5px 0px 10px 0px;
+    padding: 6px 0px 6px 0px;
+    color: #353535;
+    text-shadow: 0px 1px 0px #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px #708090 solid;
+    box-shadow: 0px 1px 0px #700000;
+}
+
+.per{
+    font-size:13px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-width: 320px;
+    background-color: #708090;
+}
+
+
+ .per ul { list-style: none; margin: 0; padding: 0; }
+ .per li {  margin-top: 2px;
+        padding: 10px; 
+        background-color: #fafafa;
+        min-height: 43px;
+    }
+  
+ #info label { 
+    width: 40%; 
+    margin-right: 10px; 
+    text-align: right; 
+  }
+
+  .per2 {
+    font-size:13px;
+    width:70%;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #708090;
+  }
+
+  .per2left{
+    width:49%;
+    float:left;
+    background-color: #708090;
+  }
+
+  .per2right{
+    width:49%;
+    float:right;
+    background-color: #708090;
+  }
+
+.per2 ul { list-style: none; margin: 0; padding: 0; }
+.per2 li {  margin-top: 2px;
+        padding: 10px; 
+        background-color: #fafafa;
+        min-height: 43px;
+    }
+
+  .per3 {
+    font-size:13px;
+    width:70%;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f7f0;
+  }
+
+  .per3 ul{list-style: none; margin: 0; padding: 0; }
+  .per3 ul li {display: inline;}
+  .per3 li{
+        float: left;
+        margin-top: 2px;
+        padding: 10px; 
+        min-width: 100px;
+        background-color: #f5f7f0;
+    }
+
+    .iconos{
+        float:right;
+        margin-right: 30px;
+    }
+
+
+.c0{background-color:#fafafa;}
+.c1{background-color:#f6f7f8;}
+.c2{background-color:#edeff1;}
+.c3{background-color:#e4e7ea;}
+.c4{background-color:#dbbfe3;}
+.c5{background-color:#d2d7dc;}
+.c6{background-color:#c9cfd5;}
+.c7{background-color:#c0c7ce;}
+.c8{background-color:#b7bfc7;}
+.c8{background-color:#afb8c1;}
+
+.t12{font-size: 12px;}
+.t11{font-size: 11px;}
+.t10{font-size: 10px;}
+.t9{font-size: 9px;}
+.t8{font-size: 8px;}
+.t7{font-size: 7px;}
+
+.w{color:white;}
+
+.r{text-align:right;}
+
+
+
+.table thead, .table tbody tr {
+	    display:table;
+	    width:100%;
+	   	table-layout: fixed;/* even columns width , fix width of table too*/
+	}
+.tablaResponsiva{
+    max-width: 100vw !important; 
+    display: inline-block;
+}

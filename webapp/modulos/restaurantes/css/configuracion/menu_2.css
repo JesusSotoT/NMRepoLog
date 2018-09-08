@@ -1,0 +1,55 @@
+.cabecera {
+    background-image: url("../../images/Menu_Digital/fondo_tenedores_menu2.png");
+    background-color: #F9F3D9;
+    background-repeat: repeat-x;
+    height: 120px;
+    background-size: 1000px 120px;
+}
+.titulo {
+    font-family: helvetica;
+    color: #8A407C;
+}
+.conta {
+    font-family: helvetica;
+    color: #513F4B;
+    background-color: #f2ebd2;
+}
+.categoria {
+    font-family: helvetica;
+    color: #513F4B;
+    background-image: url("../../images/Menu_Digital/subrayado_categoria_menu2.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.fondo_logo {
+    background-image: url("../../images/Menu_Digital/fondo_food3.png");
+    background-repeat: repeat-x;
+    position: relative;
+    height: 100px;
+}
+.logo {
+    top: 10px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.img-logo {
+    max-width: 200px;
+    height: auto;
+}
+.img-centro {
+    width: 100px;
+    height: 100px;
+    text-align: left !important;
+}
+.menu {
+    color: #823877;
+}
+div.salto_pagina {
+    /*page-break-after: always;
+    page-break-inside: avoid;*/
+}

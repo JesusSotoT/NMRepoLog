@@ -1,0 +1,21 @@
+body{
+font-size:12px;
+background-color:#FFFFFF;
+}
+#content_area{
+border:1px solid black;
+
+}
+.small_button,#menubar,#footer{
+display:none;
+}
+.long_name
+{
+display:none;
+}
+
+.short_name
+{
+	display:inline;
+}
+

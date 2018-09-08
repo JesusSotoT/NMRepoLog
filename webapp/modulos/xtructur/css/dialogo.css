@@ -1,0 +1,113 @@
+.ui-jqdialog{
+	left: 30% !important;
+	width: 40% !important;
+	border-radius: 7px !important;
+	padding: 5px !important;
+	top: 10% !important;
+	height: auto !important;
+}
+
+.ui-state-hover{
+	background: unset !important;
+	border: unset !important;
+}
+.ui-jqdialog-titlebar-close{
+	padding: unset !important;
+}
+.ui-widget-header{
+	background: white none repeat scroll 0 0 !important;
+	border-color: -moz-use-text-color -moz-use-text-color #e5e5e5 !important;
+	border-style: none none solid !important;
+	border-width: 0 0 1px !important;
+	cursor: unset !important;
+}
+.jqResize{
+	display: none;
+}
+.FormGrid{
+	width: 100% !important;
+	max-height: 300px !important;
+	overflow: auto !important;
+}
+.FormGrid input, .FormGrid select, .searchFilter input, .searchFilter select{
+	width: 95% !important;
+	margin-bottom: 0.5em !important;
+}
+.FormData input, .FormData select{
+	width: 95% !important;
+	margin-bottom: 0.5em !important;
+}
+.FormData input[type="button"], .ui-dialog-buttonset > .ui-state-default{
+	border: none !important;
+	color: white !important;
+	padding: 0.5em !important;
+	background: #337ab7 !important;
+}
+.searchFilter > table{
+	width: 100% !important;
+}
+.EditTable > tbody > tr > td > hr{
+	background: #e5e5e5 none repeat scroll 0 0 !important;
+	border: medium none !important;
+	height: 1px !important;
+	margin-top: 2em !important;
+}
+#sData{
+	background: #337ab7 none repeat scroll 0 0 !important;
+	border-color: #2e6da4 !important;
+	color: white !important;
+	padding-left: 6px !important;
+}
+#sData > .ui-icon{
+	display: none;
+}
+#cData{
+	background: #d9534f none repeat scroll 0 0 !important;
+	border-color: #d43f3a !important;
+	color: white !important;
+	padding-left: 6px !important;
+}
+#cData > .ui-icon{
+	display: none;
+}
+.ui-search{
+	background: #d9534f none repeat scroll 0 0 !important;
+	border-color: #d43f3a !important;
+	color: white !important;
+	padding-left: 6px !important;
+}
+.ui-search > .ui-icon{
+	display: none;
+}
+.ui-reset{
+	background: #337ab7 none repeat scroll 0 0 !important;
+	border-color: #2e6da4 !important;
+	color: white !important;
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+}
+.ui-reset > .ui-icon{
+	display: none;
+}
+@media only screen and (max-width: 600px){
+	.ui-jqdialog{
+	  	left: 10% !important;
+	  	width: 80% !important;
+	}
+	.columns{
+		display: block; 
+		width: 100%
+	}
+	.operators{
+		float: left; 
+		display: block; 
+		width: 100%
+	}
+	.data{
+		float: left;
+		width: 100%;
+	}
+}
+.ui-jqdialog-title{
+	color: black !important;
+}

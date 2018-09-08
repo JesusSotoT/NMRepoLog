@@ -1,0 +1,28 @@
+.titulo {
+    /*font-family: Yellowtail;*/
+}
+.conta {
+    color: #E0D4C8;
+    background-color: #1D1D1F;
+}
+
+.conta:hover {
+    color: #E0D4C8;
+    background-color: #1D1D1F;
+}
+.categoria_izquierda {
+    font-family: helvetica;
+    color: #1D1D1F;
+    background-color: #F1E5D4;
+    border-radius: 0px 45px 45px 0px;
+}
+.categoria_derecha {
+    font-family: helvetica;
+    color: #1D1D1F;
+    background-color: #F1E5D4;
+    border-radius: 45px 0px 0px 45px;
+}
+.salto_pagina {
+    /*page-break-after: always;
+    page-break-inside: avoid;*/
+}

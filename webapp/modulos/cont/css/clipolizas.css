@@ -1,0 +1,16 @@
+
+.div{
+   padding: 20px 15px 50px 50px;
+   text-align: left;
+   width: 55%;
+   /*box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);*/
+}
+#capturaNoDeducible
+{
+	display:none;
+	background-color:#EEEEEE;
+	width:500px;
+	height:550px;
+	border:1px solid #CCC;
+}
+

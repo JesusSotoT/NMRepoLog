@@ -1,0 +1,53 @@
+   #tabs.ui-widget-content{
+      border:none;
+    }
+    .npr{
+      background-color: #f7f7f7;
+        border: 1px solid #eee;
+        border-radius: 0;
+        margin: 0 5px 4px 0;
+        padding: 1px;
+        width: 150px;
+    }   
+    #contenido_etapas input{
+      border-radius: 0;
+      margin: 0 4px 4px 0;
+    }
+    #contenido_etapas textarea{
+      border-radius: 0;
+        margin: 0 4px 0 0;
+        width:250px;
+    }
+    .ui-jqgrid-htable{
+      font-size:11px;
+    }
+    .ui-jqgrid-btable{
+      font-size:11px;
+    }
+    #gbox_rowed2{
+      margin-left: -15px;
+    }
+    .ui-jqgrid .ui-paging-info{
+      font-size:11px;
+    }
+    .ui-pg-table{
+      font-size:11px;
+    }
+    .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+      border-bottom-left-radius:0;
+    }
+    .ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+      border-top-right-radius:0;
+    }
+    .ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl{
+      border-top-left-radius:0;
+    }
+    .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{
+      border-bottom-right-radius:0;
+    }
+    .EditTable{
+      font-size: 11px;
+    }
+    .ui-jqgrid-ftable{
+      font-size: 11px;
+    }

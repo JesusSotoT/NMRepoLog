@@ -1,0 +1,135 @@
+.button {
+	border: 2px outset #80BA12;
+	border-radius: 22px;
+	background-color: #80BA12;
+	margin-top: 2%;
+	text-align: center;
+	height: 23px;
+	padding-top: 8px;
+}
+
+.button:active {
+	border: inset 2px #80BA12;
+	background-color: #CCC;
+}
+
+div .tooltip {
+	margin-right: 2% !important;
+}
+
+.btn-circle {
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	line-height: 1.42;
+	border-radius: 25px;
+}
+
+.wrapPro {
+	word-wrap: break-word;
+	position: justify;
+	font-size: 11px;
+	width: 80%;
+	padding: 10px 10px 10px 10px;
+	height: auto;
+	overflow-x: hidden !important;
+	color: #000;
+}
+.div_scroll_x {
+	overflow-x: auto;
+	white-space: nowrap;
+}
+::-webkit-scrollbar {
+	width: 0px; /* remove scrollbar space */
+	background: transparent; /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+	/*background: #FF0000;*/
+}
+.btn-pedir {
+	color: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(to bottom right, #306A02, #77B245); /* Standard syntax */
+	background: -o-linear-gradient(to bottom right, #306A02, #77B245); /* Standard syntax */
+	background: -moz-linear-gradient(to bottom right, #306A02, #77B245); /* Standard syntax */
+	background: linear-gradient(to bottom right, #306A02, #77B245); /* Standard syntax */
+}
+.btn-pedir:hover {
+	color: #2C2146
+}
+.btn-cuenta {
+	color: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(to bottom right, #EAC31C, #BE931A); /* Standard syntax */
+	background: -o-linear-gradient(to bottom right, #EAC31C, #BE931A); /* Standard syntax */
+	background: -moz-linear-gradient(to bottom right, #EAC31C, #BE931A); /* Standard syntax */
+	background: linear-gradient(to bottom right, #EAC31C, #BE931A); /* Standard syntax */
+}
+.btn-cuenta:hover {
+	color: #2C2146
+}
+.btn-departamento {
+	color: white;
+	font-size: 20px;
+	background: -webkit-linear-gradient(to bottom right, #763F8B, #2C2146); /* Standard syntax */
+	background: -o-linear-gradient(to bottom right, #763F8B, #2C2146); /* Standard syntax */
+	background: -moz-linear-gradient(to bottom right, #763F8B, #2C2146); /* Standard syntax */
+	background: linear-gradient(to bottom right, #763F8B, #2C2146); /* Standard syntax */
+}
+.btn-departamento:hover {
+	color: #DCB435
+}
+
+.contenedor {
+	width: 75px;
+	height: 240px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.botonF1 {
+	width: 45px;
+	height: 45px;
+	border-radius: 100%;
+	background: transparent;
+	right: 14;
+	top: -6;
+	position: absolute;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	border: none;
+	outline: none;
+	color: #808080;
+	font-size: 25px;
+	/*box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+	transition: .3s;
+}
+span {
+	transition: .5s;
+}
+.botonF1:hover span {
+	transform: rotate(360deg);
+}
+.botonF1:active {
+	transform: scale(1.1);
+}
+.btnF {
+	width: 51px;
+	height: 51px;
+	border-radius: 100%;
+	border: none;
+	color: #FFF;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	font-size: 32px;
+	outline: none;
+	position: absolute;
+	z-index: 99;
+	right: 0;
+	top: 0;
+	margin-right: 26px;
+	transform: scale(0);
+}
+.animacionVer {
+	transform: scale(1);
+}

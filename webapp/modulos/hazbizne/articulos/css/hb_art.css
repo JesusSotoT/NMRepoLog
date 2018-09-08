@@ -1,0 +1,26 @@
+#navegacion {
+    margin: 0.5px;
+    background-color: #e2ffde;
+    width: 65%;
+    float: left;
+}
+#navegacion h3 {
+    font-family: "Arial";
+    font-size: 1.2em;
+    color: blue;
+}
+
+#navegacion a {
+    font-size: 0.8em;
+    color: #c73434;
+    text-align: right;
+}
+#contenidos {
+    margin: 1px;
+    background-color: #ffff99;
+    width: 30%;
+    border: 2px solid black;
+    margin: 2%;
+    float: left;
+    min-height: 150px;
+}

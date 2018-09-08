@@ -1,0 +1,188 @@
+#register_wrapper
+{
+	float:left;
+	width:70%;
+	font-family:Arial;
+	font-size:13px;
+}
+#mode_form
+{
+	position:relative;
+	background-color:#DDD;
+	padding: 8px 0px 8px 0px;
+}
+
+#show_suspended_sales_button
+{
+	position:absolute;
+	top:3px;
+	right:4px;	
+}
+
+#mode_form span
+{
+	font-weight:normal;
+}
+
+#add_item_form
+{
+	position:relative;
+	background-color:#BBBBBB;
+	width:100%;
+	padding: 8px 0px 8px 0px;
+	
+}
+
+#new_item_button_register
+{
+	position:absolute;
+	top:3px;
+	right:4px;
+}
+
+#add_item_form input
+{
+ 	border: 1px solid #ccc;
+ 	padding: 2px;
+ 	
+}
+
+#item_label,#customer_label
+{
+	font-weight:normal;
+}
+
+#add_item_form label
+{
+	margin: 0px 5px 0px 5px;
+}
+
+#register
+{
+	position:relative;
+	width:100%;
+	padding:0px;
+	border-collapse:collapse;	
+}
+
+#register th
+{	
+	background-color:#525154;
+	padding:5px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:Tahoma,'Trebuchet MS', Arial;
+	font-weight:normal;
+}
+
+#shopping-cart
+{
+	position:absolute;
+	top:-12px;
+	right:120px;
+}
+
+#register td
+{
+	background-color:#EEEEEE;
+	padding:3px;
+	text-align:center;
+}
+
+#overall_sale
+{
+	float:left;
+	margin-left:4px;
+	background-color:#BBBBBB;
+	width:28%;
+	padding:5px;
+	font-family:Arial;
+	font-size:13px;
+	margin-top:38px;
+	
+}
+
+#sale_details
+{
+	position:relative;
+	width:100%;
+	margin-top:5px;
+	/*border-top:2px solid #000;*/
+}
+
+#finish_sale
+{
+	position:relative;
+}
+
+#Payment_Types
+{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	border-top:2px solid #000;
+	background-color:#DDD;
+	margin-bottom:0px;
+	clear:both;
+}
+
+#Cancel_sale
+{
+	float:left;
+	width:100%;
+	margin-top:5px;
+	clear:both;
+}
+#suspended_sales_table th
+{
+	text-align:center;
+}
+
+#suspended_sales_table td
+{
+	padding: 7px;
+}
+
+#credit_card_form fieldset 
+{
+	overflow: auto;
+	border: 0;
+	margin: 0;
+	padding: 0; 
+}
+
+#credit_card_form fieldset div 
+{
+	float: left; 
+}
+
+#credit_card_form fieldset.centered div 
+{
+	text-align: center; 
+}
+
+#credit_card_form label 
+{
+	display: block;
+	margin-bottom: 5px; 
+}
+
+#credit_card_form input.text 
+{
+	border: 1px solid #bfbab4;
+	margin: 0 4px 8px 0;
+}
+
+#button_customer{
+	color:white;
+	display: inline-block;
+	width:95px;
+	height:30px;
+	background-image: url(../../../netwarelog/accelog/img/tab_nosel_bg.png);
+	background-repeat: repeat-x;
+	/*background-repeat:no-repeat;*/
+	text-align: center;
+	padding-top:8px;
+	font-size:11px;
+}
+

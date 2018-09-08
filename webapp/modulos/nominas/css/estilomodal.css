@@ -1,0 +1,120 @@
+.table-fixed thead,
+{
+  width: 100%;
+
+
+}
+
+.table-fixed tbody {
+  height: 210px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody{
+  display: block;
+  
+}
+
+.table-fixed tbody td,
+.table-fixed thead > tr> th,
+.table-fixed tfoot > tr> td{
+ max-width: 200px;
+ min-width: 120px;
+
+
+}
+
+
+input[type="number"] { 
+  background-color: #EEE;
+  width: 70px;
+
+}
+
+.dele{
+  color: #B00E0E;
+}
+
+.agre{
+
+  color:#615757;
+}
+
+input[type="text"][disabled]{
+
+  background-color:#EEE;
+  border-radius: 2px;
+  border-style: solid;
+}
+
+
+.color{
+
+ background-color: #ff00ff;
+}
+
+.trseleccionado{
+ background-color: #8ed6e5;
+ color:#000000;
+} 
+
+
+.p_actual{
+
+  background-image: url('../images/verde.png') !important;
+  background-repeat: no-repeat !important;
+  background-position: right;
+  border: 1px solid #298A08;
+  background-size: 45px;
+
+
+}
+.nav li.active a.p_futuro{
+
+ background-image: url('../images/amarillo.png') !important;
+ background-repeat: no-repeat !important;
+ background-position: right;
+ background-size: 45px;
+
+}
+
+.nav li.active a.p_anterior{
+ 
+ background-image: url('../images/rojo.png') !important;
+ background-repeat: no-repeat !important;
+ background-position: right;
+ background-size: 45px;
+}
+
+.trseleccionado:hover{
+  background-color:#8ed6e5;
+  color:#000000;
+} 
+
+.table-hover tbody tr.trseleccionado:hover td, .table-hover tbody tr.trseleccionado:hover th {
+  background-color: #8ed6e5;
+}
+
+.modal{
+
+  overflow: hidden;
+}
+.modal-dialog{
+
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.fa {
+
+  font-size: 19px !important;
+}
+
+.encabemodal{
+  padding:1.3px; 
+  border: 2px solid #BDBBBB;
+  border-radius:5px;
+}
+

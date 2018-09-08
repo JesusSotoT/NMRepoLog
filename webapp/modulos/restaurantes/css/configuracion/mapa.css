@@ -1,0 +1,15 @@
+#google-map {
+	height: 90vh;
+}
+
+.context-menu{
+	background:#ffffff;
+	border:1px solid #8888FF;
+	z-index: 1000;
+	position: relative;
+	width: 140px;
+}
+
+.context-menu div{
+	padding-left: 5px
+}

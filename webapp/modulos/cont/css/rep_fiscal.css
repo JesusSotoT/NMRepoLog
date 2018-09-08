@@ -1,0 +1,9 @@
+@charset "UTF-8";	
+
+.fondo{ width: 100%; height: 100%; }
+.tabla_filtro{font-size: 12px; float: left; color: black;}
+.filtro_select select{width: 90%;}
+.filtro_select {vertical-align: bottom;}
+.filtro_text input{width:86%;}
+.filtro_text {vertical-align: bottom;}
+.filtro_radiobox{vertical-align: top;}

@@ -1,0 +1,23 @@
+
+@media print
+{
+	#imprimir,#buscar,#FacturasButton,img
+	{
+		display:none;
+	}
+
+	input[type='button']
+	{
+		display:none;
+	}
+
+	/*#botonClientes,#botonProveedores
+	{
+		color:#ffffff;
+		background-color:white
+		text-shadow:0px; 
+		border:0px;
+		width:1px;
+	}*/
+
+}

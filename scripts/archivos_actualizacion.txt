@@ -1,0 +1,17 @@
+//Archivos generales de actualización
+
+webapp/modulos/appministra/
+webapp/modulos/pos/
+webapp/restaurantes/
+webapp/libraries/
+webapp/modulos/bancos/js/despuesclasificador.php
+webapp/modulos/bancos/js/antesclasificador.php
+webapp/modulos/SAT/PDF/CFDIPDF.php
+webapp/modulos/SAT/PDF/COTIZACIONESPDF.php
+webapp/modulos/SAT/PDF/EnLetras.php
+webapp/modulos/cont/js/antesempleados.php
+webapp/modulos/mrp/despuesprove.php
+webapp/modulos/mrp/antesprove.php
+webapp/modulos/punto_venta/views/clientes/plantilla.xls
+webapp/modulos/punto_venta/views/proveedores/plantilla.xlsx
+webapp/netwarlog/accelog/icons.php

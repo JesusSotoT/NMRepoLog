@@ -1,0 +1,68 @@
+.chart{
+	clear: both;
+	width: 720px;
+	height: 620px;
+	text-align: center;
+	margin-left: 150px;
+}
+@media print {
+	.noprint{
+		display: none;
+	}
+	.chart{
+		 page-break-before:always;
+	}
+}
+/* Antiguos estilos de la tabla
+.reportTable > table
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	background: #fff;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+.reportTable > table th
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-bottom: 2px solid #6678b1;
+}
+.reportTable > table td
+{
+	color: #669;
+	padding: 9px 8px 0 8px;
+}
+.reportTable > table tbody tr:hover td
+{
+	color: #009;
+}
+*/
+label{
+	color: gray;
+}
+h1{
+	text-align: center;
+}
+.reportTable tbody td{
+	min-width: 105px;
+}
+.reportTable table{
+	text-align: center;
+}
+.reportTable table tbody td:nth-child(1){
+	text-align: right;
+	padding-right: 15px;
+}
+.reportTable{
+	margin-left: 25px;
+}
+
+select[id=sucursal]{
+	min-width: 122px;
+	min-height: 70px;
+}

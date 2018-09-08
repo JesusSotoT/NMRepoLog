@@ -1,0 +1,70 @@
+@charset "utf-8";
+	.Estilodecarcternormal1
+{
+	font-family : System Font;
+	font-size : 71px;
+	color : #515251;
+	color : rgb(81, 82, 81);
+}
+.image9
+{
+	background-image : url(image9.png);
+	background-repeat : no-repeat;
+}
+.image8
+{
+	background-image : url(image8.png);
+	background-repeat : no-repeat;
+}
+.st0
+{
+	background : #F5F4F4;
+	background : rgba(245, 244, 244, 1);
+}
+.image7
+{
+	background-image : url(image7.png);
+	background-repeat : no-repeat;
+}
+.image6
+{
+	background-image : url(image6.png);
+	background-repeat : no-repeat;
+}
+.image5
+{
+	background-image : url(image5.png);
+	background-repeat : no-repeat;
+}
+.image3
+{
+	background-image : url(image3.png);
+	background-repeat : no-repeat;
+}
+.image4
+{
+	background-image : url(image4.png);
+	background-repeat : no-repeat;
+}
+.image1
+{
+	background-image : url(image1.png);
+	background-repeat : no-repeat;
+}
+.image2
+{
+	background-image : url(image2.png);
+	background-repeat : no-repeat;
+}
+.image
+{
+	background-image : url(image.png);
+	background-repeat : no-repeat;
+}
+.Estilodecarcternormal
+{
+	font-family : System Font;
+	font-size : 16px;
+	color : #F5F4F4;
+	color : rgb(245, 244, 244);
+}

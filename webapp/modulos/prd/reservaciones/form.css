@@ -1,0 +1,20 @@
+/* CSS Document */
+input,textarea
+{
+	width:250px;
+}
+
+.add
+{
+	width:28px;
+}
+
+select
+{
+	width:200px;
+}
+
+p
+{
+	clear:both;
+}

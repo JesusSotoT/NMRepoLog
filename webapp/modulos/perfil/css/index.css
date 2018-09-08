@@ -1,0 +1,120 @@
+td.dt-body-center
+{
+   text-align: center !important;
+}
+
+.btn1{
+   background-color: #653A9F;
+   border: 2px solid white;
+   color: white;
+   border-radius: 25px;
+   padding: 0.4em 1.5em;
+   margin-bottom: 0.5em;
+   font-size: 1.5em;
+   font-weight: 100;
+}
+
+.btn1:hover{
+   background-color: white;
+   color: rgba(101, 58, 159, 1);
+   border: 1px solid #653A9F;
+}
+
+.margintop{
+   margin-top: 35px;
+}
+
+.apuntador {
+   cursor: pointer;
+}
+
+.txt-verde {
+   color: #5cb85c;
+}
+
+.txt-rojo {
+   color: #d9534f;
+} 
+
+form #numero {
+   background-image: url(../images/tarjetas.png), url(../images/tarjetas.png);
+   background-position: 2px -121px, 260px -61px;
+   background-size: 120px 361px, 120px 361px;
+   background-repeat: no-repeat;
+   padding-left: 54px;
+}
+
+form #numero.visa {
+   background-position: 2px -163px, 260px -61px
+}
+
+form #numero.visa_electron {
+   background-position: 2px -205px, 260px -61px
+}
+
+form #numero.mastercard {
+   background-position: 2px -247px, 260px -61px
+}
+
+form #numero.maestro {
+   background-position: 2px -289px, 260px -61px
+}
+
+form #numero.discover {
+   background-position: 2px -331px, 260px -61px
+}
+
+form #numero.valid.visa {
+   background-position: 2px -163px, 260px -87px
+}
+
+form #numero.valid.visa_electron {
+   background-position: 2px -205px, 260px -87px
+}
+
+form #numero.valid.mastercard {
+   background-position: 2px -247px, 260px -87px
+}
+
+form #numero.valid.maestro {
+   background-position: 2px -289px, 260px -87px
+}
+
+form #numero.valid.discover {
+   background-position: 2px -331px, 260px -87px
+}
+
+.active {
+   background: #653A9F !important;
+}
+
+.active, .focused, .year:hover, .month:hover {
+   border-radius: 0px !important;
+}
+
+.tarjeta {
+   margin-top: 1em;
+   border-bottom: 1px solid gray;
+   border-radius: 0.5em;
+   padding-left: 0.5em;
+   padding-right: 0.5em;
+}
+
+.progress {
+   margin-bottom: unset !important;
+}
+
+#guardar {
+   cursor: pointer;
+}
+
+.loader-div {
+   background: rgba(0, 0, 0, 0.4);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   z-index: 1;
+   left: 0;
+   right: 0;
+}
+

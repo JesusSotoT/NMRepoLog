@@ -1,0 +1,86 @@
+
+@media print
+{
+  .mostrar {
+    display:inline !important;
+  }
+
+  .ocultos
+  {
+    display:none !important;
+  }  
+}
+
+.estilos{   
+  font-weight:bold !important;
+  color: black !important;
+  border:none;
+  background-color: transparent;
+  border: 0px solid;
+  outline: 0px none;
+  padding:0 ! important;
+
+}
+
+/*ENCABEZADO PERCEPCIONES Y DEDUCCIONES*/
+.iEncab{
+  background-color: rgb(48,73,95) !important;
+  width:50% !important;
+  height:35px !important;
+  font-size: 16px !important; 
+}
+
+/*NOMBRE DE LAS COLUMNAS*/
+.titcolor{
+  height:40px;
+  width:110px;
+  border: 0px solid #bdbdbd;
+  background-color:#eeeeee;
+}
+
+/*TD EDITABLES*/
+
+.estilosborder{   
+  font-weight:normal !important;
+  color: black !important;
+}
+
+.degrado{
+	background: -webkit-linear-gradient(#416077, #22374c);
+  background: -moz-linear-gradient(#416077, #22374c);
+  background: -o-linear-gradient(#416077, #22374c);
+}
+.nuevo,.edicion{
+  position:absolute;
+  top:0;
+  right:0;
+  padding:2px 20px;
+  background: #DF0101; color: white;
+  border-radius:3px;
+}
+
+#vertical-bar {
+  border-left: 1px solid #ccc;
+  width:1px;
+  height:500px;
+}
+
+
+
+.firma{
+
+  color: black !important;
+  font-weight:normal !important;
+  text-align: justify !important;
+  font-size: 12px !important;
+
+}
+.letr{
+  font-size: 13px !important;
+  color: black !important;
+}
+
+.tipnormal{
+  font-weight: normal !important;
+}
+

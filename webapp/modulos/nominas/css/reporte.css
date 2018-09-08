@@ -1,0 +1,17 @@
+@charset "UTF-8";   
+    
+
+.ui-widget-header/*titulo de pop up UI-------------------*/
+{
+    background-color: #4c4c4c !important;
+    background-image:none;
+    color:white;
+    border:0px;
+}
+
+/*.over{
+    background-color:#DEDFD9 !important;
+    color:#383932;
+}
+*/
+

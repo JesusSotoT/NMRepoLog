@@ -1,0 +1,23 @@
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+table{
+	width:100%;
+}
+.titulo td{
+	background-color:#525154;
+	color:white;
+	width:50%;
+	padding:3px;
+	
+}
+.resultado td{
+	background-color:#F2F2F2;
+	color:black;
+	font-size:20px;
+	padding:3px;
+	width:50%;
+	height:80px;
+}
+

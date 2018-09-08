@@ -1,0 +1,124 @@
+.datos2{
+	background: #F2F2F2;width: 100%;table-layout: fixed;word-wrap: break-word;
+}
+
+.listacon td, th
+{
+	width:158px;
+	height:30px;
+	text-align: center;
+	border:1px solid #BDBDBD;
+	word-wrap: break-word;
+
+}
+.datos td, th
+{
+	height:20px;
+	word-wrap: break-word;
+
+	
+}
+.over{
+background-color:#91C313;
+color:#FFF;
+}
+.out{
+background-color:;
+color:;
+}
+.fila{
+	background: #A4A4A4; color: #FFFFFF;font-weight: bold;
+}
+.fila2{
+	background: #848484; color: #FFFFFF;font-weight: bold;
+}
+ .droptarget {
+    float: left; 
+    width: 90%; 
+    height: 35px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+#volverdescartar,#sumamov{ display:none}
+  	.btnMenu{
+      	border-radius: 0; 
+      	width: 100%;
+      	margin-bottom: 0.3em;
+      	margin-top: 0.3em;
+  	}
+  	.row
+  	{
+      	margin-top: 0.5em !important;
+  	}
+  	h5, h4, h3{
+      	background-color: #eee;
+      	padding: 0.4em;
+  	}
+  	.modal-title{
+  		background-color: unset !important;
+  		padding: unset !important;
+  	}
+  	.nmwatitles, [id="title"] {
+      	padding: 8px 0 3px !important;
+     	background-color: unset !important;
+  	}
+  	.select2-container{
+      	width: 100% !important;
+  	}
+  	.select2-container .select2-choice{
+      	background-image: unset !important;
+     	height: 31px !important;
+  	}
+  	.twitter-typeahead{
+  		width: 100% !important;
+  	}
+  	.tablaResponsiva{
+        max-width: 100vw !important; 
+        display: inline-block;
+    }
+    .droptarget {
+    	width: 100% !important;
+    	margin: 0 !important;
+    }
+    .table thead, .table tbody tr {
+	    display:table;
+	    width:100%;
+	   	table-layout: fixed;/* even columns width , fix width of table too*/
+	}
+	.table tfoot{
+		display: table;
+    	width: 100%;
+	}
+	#circuloingreso{
+		 width: 10px;
+  		 height: 10px;
+		background:#FFBF00; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}
+	#circuloegreso{
+		 width: 10px;
+  		 height: 10px;
+		background:#5882FA; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}
+	#circulocheque{
+		 width: 10px;
+  		 height: 10px;
+		background:#FE2EF7; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}
+	#circulodeposito{
+		 width: 10px;
+  		 height: 10px;
+		background:#FA5882; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}

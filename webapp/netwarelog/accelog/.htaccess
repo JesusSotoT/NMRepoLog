@@ -1,0 +1,15 @@
+Options +FollowSymlinks
+
+<IfModule mod_rewrite.c>
+
+        RewriteEngine Off
+
+</IfModule>
+
+SetEnvIf User-Agent "msnbot" BlockUA
+SetEnvIf User-Agent "bingbot" BlockUA
+SetEnvIf User-Agent "Googlebot" BlockUA
+
+Order allow,deny
+Allow from all
+Deny from env=BlockUA

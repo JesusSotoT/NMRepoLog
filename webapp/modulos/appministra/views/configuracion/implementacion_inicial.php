@@ -1,0 +1,368 @@
+<style>
+    .panel-heading{
+        height: 50px;
+    }
+    .blueText{
+        color: #48D1CC;
+    }
+    .subText{
+        color: #808080;
+    }
+    .divdorder{
+        border: red;
+    }
+    .subText2{
+      font-family: monospace;
+      color: #48D1CC;
+    }
+    .panel-heading {background-color: blue!important}
+
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Implementacion Inicial</title>
+    <link rel="stylesheet" href="">
+</head>
+    <link rel="stylesheet" href="../../libraries/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../../libraries/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="../../libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../libraries/jquery.min.js"></script>
+    
+    <body> 
+        <div class="container">
+            <div class="col-md-12">
+                 <div class="col-md-3 pull-right">
+                    <img width="280" height="80" src="images/dias.png">
+                </div>
+                <div class="col-md-9 divdorder">
+                    <h2 class="blueText">Hola <?php echo $nombre_instacia ?></h2>
+                    <h3 class="subText"><b>Bienvenido a <img src="" alt=""> El mejor socio para impulsar tu negocio</b></h3><br><br><br>
+                </div>
+
+                <div class="col-md-12 subText"style="border-width: 2px; border-style: solid; border-color: 808080; "></div>
+               
+            </div>             
+            <div class="container" id="divempresas" >
+                <div class="col-md-12 text-center subText2"><h3>Elije el perfil de tu Empresa</h3></div>
+                <div class="col-md-12 text-center subText"><h3>Elejir un perfil nos ayudara a comprender mejor tu negocioy poder aconsejrte para que puedas aprovechar mas Appministra </h3></div>
+                <div class="col-md-12 text-center"> 
+                    <div class="col-md-6 text-center">
+                        <img style="cursor: pointer" width="150" height="150" src="images/eservicios.png" onclick="imgservicios();">
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img style="cursor: pointer" width="150" height="150" src="images/ecomercio.png" onclick="imgcomercio();">
+                    </div>
+                    
+                    <!--
+                    <img style="cursor: pointer" width="150" height="150" src="images/emanu.png" onclick="imgmanu();">    
+                    -->
+                    
+                </div>
+            </div> 
+           
+            <div class"container" id="divServicios"> 
+                <div class="pull-right">
+                    <button type="button" class="btn btn-info" onclick="back();">Back</button>
+                </div>
+                <div>
+                    <h3> Haz elegido el Perfil de: <label class="blueText">Servicios</label></h3>
+                    <h5 class="subText">A continuación te mostraremos una serrie de actividades sugeridas, que te ayudaran a conocer Appministra y configurar tu empresa</h5>
+                </div>
+                
+                
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading panel-primary">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#serv1">
+                                     <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                    <div>Paso 1:</div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="serv1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-xs-11">
+                                    <label >Logo de tu empresa</label><br>
+                                </div>
+                                <div class="col-xs-1">
+                                    <button type="button" class="btn btn-primary" onclick="logoEmpresa();" >Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Facturacion Electronica</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary" onclick="facturacionEmpresa();">Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Sucursales</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary" onclick="sucursalEmpresar();">Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Monedas</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Bancos y Cajas</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#serv2">
+                                    <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                <div>Paso 2:</div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="serv2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-md-11">
+                                    <label >FALTA DEFINIR</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#serv3">
+                                    <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                <div>Paso 3:</div><br>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="serv3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-md-11">
+                                    <label >FALTA DEFINIR</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#serv4">
+                                    <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                <div>Paso 4:</div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="serv4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-md-11">
+                                    <label >FALTA DEFINIR</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class"container" id="divComercio">
+                <div class="pull-right">
+                    <button type="button" class="btn btn-info" onclick="back();">Back</button>
+                </div>
+                <div>
+                    <h3> Haz elegido el Perfil de: <label class="blueText">Comercio</label></h3>
+                    <h5 class="subText">A continuación te mostraremos una serrie de actividades sugeridas, que te ayudaran a conocer Appministra y configurar tu empresa</h5>
+                </div>
+                
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#com1">
+                                     <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                    <div>Paso 1: </div>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="com1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-md-11">
+                                    <label >FALTA DEFINIR</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#com2">
+                                    <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                <div>Paso 2:</div> 
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="com2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-md-11">
+                                    <label >Lista de Precio</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary" onclick="preciosEmpresa();">Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Registra un Producto</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Importa tu catalogo de productos por medio de Excel</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                                <div class="col-md-11">
+                                    <label >Importar tus listas de precio</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#com3">
+                                    <div class="progress progress-striped active col-md-2 pull-right" style="padding:0">
+                                        <div class=" progreso progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                        </div>
+                                    </div>
+                                <div>Paso 3:</div> 
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="com3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="col-md-11">
+                                    <label >FALTA DEFINIR</label><br>
+                                </div>
+                                <div class="col-md-1">
+                                    <button type="button" class="btn btn-primary">Realizar</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+<script>
+    $(document).ready(function() {
+        $("#divServicios").hide();
+        $("#divComercio").hide();
+        $("#divempresas").show();
+    });
+    function imgservicios(){
+        $("#divServicios").show();
+        $("#divempresas").hide();
+    }
+    function imgcomercio(){
+        $("#divComercio").show();
+        $("#divServicios").hide();
+        $("#divempresas").hide();
+    }
+    function imgmanu(){
+        alert(3);
+    }
+    function back(){
+        $("#divServicios").hide();
+        $("#divComercio").hide();
+        $("#divempresas").show();
+    }
+    function logoEmpresa(){        
+        window.parent.agregatab("../catalog/gestor.php?idestructura=1&ticket=testing","Mi Organización","",2);        
+    }
+    function facturacionEmpresa(){        
+        window.parent.agregatab("../catalog/gestor.php?idestructura=249&ticket=testing","Datos facturacion","",1284);
+    }
+    function sucursalEmpresa(){        
+        window.parent.agregatab("../catalog/gestor.php?idestructura=86&ticket=testing","Sucursal","",2152);
+    }
+    function monedaEmpresa(){        
+        window.parent.agregatab("../catalog/gestor.php?idestructura=256&ticket=testing","Tipo de moneda","",1674);
+    }
+    function bancoEmpresa(){        
+        window.parent.agregatab("../catalog/gestor.php?idestructura=274&ticket=testing","Bancos","",1705);
+    }
+    /// COMERCIALIZADORA
+    function preciosEmpresa(){
+        window.parent.agregatab("../../modulos/appministra/index.php?c=configuracion&f=listas_precio","Listas de Precios","",1988);
+    }
+    function producosEmpresa(){        
+        window.parent.agregatab("../../modulos/pos/index.php?c=producto&f=indexGridProductos","Productos","",2034);
+    }
+</script>
+
+

@@ -1,0 +1,28 @@
+
+@media print{
+ .ocultarfiltros{
+  display: none !important;
+}
+
+
+.mostrar {
+  display:block !important;
+}
+
+
+.ocultos{
+ display:none !important;
+
+
+}
+.saltopagina{
+
+  display:block;
+  page-break-before:always;
+}
+
+
+
+
+
+

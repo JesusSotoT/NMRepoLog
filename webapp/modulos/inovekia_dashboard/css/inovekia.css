@@ -1,0 +1,46 @@
+textarea
+{
+  resize: none !important;
+}
+
+td.dt-body-center
+{
+  text-align: center !important;
+}
+
+#mapa
+{
+	height: 200px;
+}
+
+#scorm
+{
+	width: 100% !important;
+	border: none !important;
+	height: 450px;
+}
+
+.ui-autocomplete {
+	z-index: 9999 !important;
+}
+
+.separador {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.bg-gray{
+	color: #fff;
+	background-color: #777;
+}
+
+.porcentaje {
+	min-width: 8em;
+	max-width: 8em;
+}
+
+.item {
+	margin-bottom: 1em;
+}

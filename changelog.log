@@ -1,0 +1,24 @@
+######################  UPDATE   #####################
+
+//ERROR DE FLASH EN EXPLORADORES 
+
+###############################################  UPDATE SCRIPT INSUMOS.PHP #######################################################
+<p><input type="file" name="file_upload" id="file_upload" /></p> ### CORECCIÓN DE VARIABLE EN ID DE "file_upload_1" A "file_upload"
+<!--<p><a href="javascript:$('#file_upload_1').uploadify('upload')">Subir archivo</a></p>-->
+
+<div id="contenedor" style="float:left; width:700px;">
+      <div style="float:left; width:700px; margin:5px 0 0 0;">
+        <select id="selpro" onchange="selpro();">
+          <option value="0" selected="selected">Selecciona proyecto</option>
+          <?php foreach ($rsql_proy as $key => $value) { ?>
+            <option value="<?php echo $value['id']; ?>"><?php echo $value['nombre']; ?></option>
+          <?php } ?>
+        </select>
+      </div>
+      <div style="float:left; width:700px; margin:5px 0 10px 0;">
+        <select id="selpre" onchange="selpre();">
+          <option value="0" selected="selected">Selecciona presupuesto</option>
+        </select>
+      </div
+      
+##################################################################################################################################

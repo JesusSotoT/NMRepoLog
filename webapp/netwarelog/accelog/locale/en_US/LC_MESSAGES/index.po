@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-13 18:55-0600\n"
+"PO-Revision-Date: 2017-02-13 18:55-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _t\n"
+"X-Poedit-SearchPath-0: index.php\n"
+
+#: index.php:125
+msgid "Usuario o contraseña no válidos."
+msgstr "Invalid user or password"
+
+#: index.php:128
+msgid "El correo electronico no es válido."
+msgstr "Invalid email address"
+
+#: index.php:131
+msgid "El correo que proporciono esta asociado a otro usuario, escriba otro."
+msgstr "Email address is assigned to other user, please try again."
+
+#: index.php:161
+msgid "Escriba su usuario"
+msgstr "User name"
+
+#: index.php:170
+msgid "Contraseña"
+msgstr "Password"
+
+#: index.php:185
+msgid "Recordar Contraseña"
+msgstr "Remember password"
+
+#: index.php:193
+msgid "Iniciar sesión"
+msgstr "Log in"
+
+#: index.php:197
+msgid "Recuperar la contraseña."
+msgstr "Forgot my password"
+
+#: index.php:248
+msgid "Aviso de privacidad"
+msgstr "Privacy"

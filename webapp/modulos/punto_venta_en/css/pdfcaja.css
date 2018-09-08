@@ -1,0 +1,31 @@
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#fecha_inicio
+{
+	display:none;
+}
+#fecha_fin
+{
+	display:none;
+}
+#fecha_inicio_label
+{
+	display:block;
+}
+#fecha_fin_label
+{
+	display:block;
+}
+
+#dopdf
+{
+	display:none;
+}
+
+#fechahora
+{
+	display: none;
+}

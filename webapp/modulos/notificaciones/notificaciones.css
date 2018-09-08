@@ -1,0 +1,57 @@
+
+/* GENERALES */
+
+html { font-family: Tahoma,"Trebuchet MS", Arial; }
+
+td.titulo{	-moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px; text-align: "left"; }
+
+td.empresas{ 
+	border-bottom-color:#d3d3d3; border-top:none; border-left:none; border-right:none;
+	color:gray; font-size:16px;
+	height:25px;
+}
+
+table.listado{ padding:0px; }
+
+a{ color:gray; text-decoration: none; }
+
+a:hover{ text-decoration: underline; }
+
+#divcomp{
+	display:none;
+	background-color:white; border:none 1px gray;
+	right: 50px; top: 160px; height: 330px; width: 500px;
+	padding:10px; position: absolute;
+	text-align:center;
+	
+	/*Sombra y radius*/
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-transition: all 1s ease; -o-transition: all 1s ease; -webkit-transition: all 1s ease; transition: all 1s ease;
+    -moz-box-shadow: #555 0 0 15px; -webkit-box-shadow: #555 0 0 15px; box-shadow: #555 0 0 15px
+
+}
+#frmcomp{ width:480px; height:310px; border:none; }
+
+/* Ventana de compartir */
+
+#table_divcomp{ border:none; }
+#table_divcomp td{ border:none; color:gray; font-size:16px; }
+#txtcorreos { 
+	border-color:#c9c9c9; width:450px; height:50px; padding:5px;
+
+	font-size:13px; font-weight:normal;
+    
+    -moz-box-shadow: inset 3px 3px 10px 3px rgba(100, 100, 100, 0.1); 
+    -webkit-box-shadow: inset 3px 3px 10px 3px rgba(100, 100, 100, 0.1);
+    box-shadow: inset 3px 3px 10px 3px rgba(100, 100, 100, 0.1)
+}
+section { font-size:12px; text-align:center; }
+section header { text-align:left; }
+
+#id_loading{ font-size:12px; color:gray; }
+
+#notificaciones tr.unread { background-color:#ccc; }
+#notificaciones tr.read { background-color:#FFF;}
+
+
+

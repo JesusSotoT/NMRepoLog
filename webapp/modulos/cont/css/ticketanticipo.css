@@ -1,0 +1,18 @@
+.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+	.zoom:hover{
+		transform : scale(6);
+		-moz-transform : scale(6); /* Firefox */
+		-webkit-transform : scale(6); /* Chrome - Safari */
+		-o-transform : scale(6); /* Opera */
+		-ms-transform : scale(6); /* IE9 */
+	}
+	.ima{
+   width: 70px; height: 60px;
+    cursor: pointer;
+    
+   }

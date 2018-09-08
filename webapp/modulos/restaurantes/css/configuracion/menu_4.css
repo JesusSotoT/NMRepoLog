@@ -1,0 +1,50 @@
+.cabecera {
+	background-image: url("../../images/Menu_Digital/fondo_food4.png");
+	background-color: #EDECE8;
+	background-repeat: repeat-x;
+	background-size: 760px 120px;
+	height: 150px;
+}
+.titulo {
+	font-family: helvetica;
+	color: #8A407C;
+}
+.conta {
+	font-family: helvetica;
+	color: #210F0D;
+	background-color: #EDECE8;
+}
+.categoria {
+	font-family: helvetica;
+	color: #F2F7EC;
+	background-image: url("../../images/Menu_Digital/etiqueta_food.png");
+	background-position: left bottom;
+	background-size: 200px 40px;
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+.logo {
+	top: 30px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.img-logo {
+	max-width: 150px;
+	height: auto;
+}
+.img-centro {
+	width: 100px;
+	height: 100px;
+	text-align: left !important;
+}
+.menu {
+	color: #210F0D;
+}
+div.salto_pagina {
+    /*page-break-after: always;
+    page-break-inside: avoid;*/
+}

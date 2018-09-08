@@ -1,0 +1,4 @@
+webapp/modulos/cont/controllers/polizasimpresion.php
+webapp/modulos/cont/models/polizasImpresion.php
+webapp/modulos/cont/views/captpolizas/polizasImpresion.php
+webapp/modulos/cont/views/reports/navegadorXMLs_facturas.php

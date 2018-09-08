@@ -1,0 +1,53 @@
+﻿body { font-family:Arial; font-size:12px; margin:0px 0px 0px 0px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.index_header { width:100%; height:70px;line-height:70px; box-shadow: 0px -1px 0px #4a455c; background-image:url(img/bg01.png); background-position:left top; background-repeat:repeat-y; background-size:100% 3px; }
+
+.index_menu { font-size:20px; color:#4a455c; text-shadow: 1px 1px #aaaaaa; font-weight:bold; text-decoration:none; margin:0px 20px 0px 20px; }
+.index_menu:hover { text-decoration:underline; }
+
+.index_divLogin { padding:15px 0px 0px 0px; width :100%; height:84px; background-image:url(img/bg02.png); font-size:18px;color:#e4e6e7; background-position:left top; background-repeat:no-repeat;  background-size:100% 100%; }
+.index_inputlogin { border:0px; border-radius:4px; width:140px;box-shadow: 1px 1px 1px #969696; color:#505050; margin-right:30px; font-size:18px; padding:5px 5px 5px 5px; }
+.index_submitlogin { border:0px; border-radius:4px; width: 140px;box-shadow: 1px 1px 1px #007e9b; color:#e4e6e7; font-size:18px; padding:5px 0px 5px 0px; text-shadow: 1px 1px #007e9b; background-color:#00a3cf }
+.index_checklogin { border:0px; border-radius:4px;margin:10px 0px 0px 0px; box-shadow: 1px 0px 1px #969696; margin-top:-2px; }
+.index_recoverpwd { color:#00a3cf; text-decoration:none; margin :0px 0px 0px 70px; }
+.index_recoverpwd:hover { text-decoration:underline; }
+
+.index_bannermain { position:relative; padding-top:50px; padding-bottom:50px; margin-bottom:20px; width:100%; background-image:url(img/bg03.png), url(img/bg01.png); background-position:center top, left top; background-repeat:repeat-x repeat-y,repeat-y; background-size:auto, 100% 3px; }
+.index_bannerorg { position:relative; border-top-left-radius:10px; border-top-right-radius:10px; width:733px; height:56px; line-height:56px; padding:0px 0px 0px 250px; box-shadow:1px 1px 1px #969696; background-color:#aaaaaa; margin:0px auto 0px auto; color:#4a455c; font-size: 22px; font-weight:bold; text-shadow: 0px 1px 0px #FFFFFF; }
+.index_bannersup { width:983px;height:1px ; position:relative; box-shadow:1px 1px 1px #969696; border:0px; margin:0px auto 0px auto;background-color:#aaaaaa; }
+.index_logocont  { padding:8px 8px 8px 8px; border-radius:10px; border:3px #00A3CF solid; display:block; width:180px; height:180px; background-color:#AAAAAA; position:relative; top:-180px; left:30px; z-index:100 }
+.index_logo { background-color:#FFFFFF; border-radius:6px; width:180px; height:180px; background-image:url(img/logo.png); background-position:center center; background-repeat:no-repeat; background-size: 90% auto; }
+.index_bannercont { width:963px;height:443px ; position:relative; box-shadow: 1px 1px 1px #969696; border:10px #aaaaaa solid; border-top:0px; border-bottom-left-radius:10px; border-bottom-right-radius:10px; margin:0px auto 0px auto; background-color:#AAAAAA; }
+
+.index_footer { text-align:center; width:100%; box-shadow: 0px -1px 0px #4a455c; background-image:url(img/bg01.png); background-position:left top; background-repeat:repeat-y; background-size:100% 3px; padding:20px 0px 20px 0px; }
+
+.index_footercont { display:inline-block; vertical-align:top; text-align:left; margin:0px 50px 0px 50px; }
+
+.link_footerbold {font-family:Arial;  font-size:13px; color:#515054; font-weight:600; text-decoration:none; margin:0px 0px 0px 0px; }
+.link_footerbold:hover {font-family:Arial;  text-decoration:underline; }
+
+.link_footer {font-family:Arial;  font-size:13px; color:#515054; font-weight:bold; text-decoration:none; margin:0px 0px 0px 0px; }
+.link_footer:hover {font-family:Arial;  text-decoration:underline; }
+
+/* rotator position  */
+div.rotator { width:957px;height:437px; overflow:hidden; position:relative; border:3px #00A3CF solid; border-radius:10px; margin:0px auto 0px auto;background-color:#ffffff; }
+div.rotator ul{ list-style:none; margin:0; padding:0; }
+/* rotator css */
+div.rotator ul li {	list-style-image:none; list-style-position:inside; float:left; position:absolute; list-style: none; float; }
+/* rotator image style */	
+div.rotator ul li img { border:0px solid #ccc; padding: 0px; background: #FFF; }
+div.rotator ul li.show { z-index:0; }
+

@@ -1,0 +1,39 @@
+.mydialog
+{
+	font-size:9px;
+}
+
+.verde
+{
+	color:#FFFFFF;
+	background-color:#98ac31;
+	font-weight:bold;
+	font-size:16px;
+	padding:0 30px;
+	height:30px;
+}
+
+.long-input
+{
+	width:200px;
+
+}
+
+.pad
+{
+	padding:15 25px;
+}
+
+.pad2
+{
+	padding:15 0px;
+	width:320px;
+}
+
+.big
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#525154;
+	text-align:center;
+}

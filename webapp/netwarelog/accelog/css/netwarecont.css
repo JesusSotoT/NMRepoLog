@@ -1,0 +1,70 @@
+.everything { width:995px; font-size:13px; color:#FFF;}
+.everything .top { background-color:#525154;}
+.everything .top .left {float:left;}
+.everything .top .left .top_links { padding-top:12px; font-size:150%; color:#FFF;}
+.everything .top .left .top_links a { color: #FFF; text-decoration:none;}
+ .everything .top .left .top_links span { padding-left:20px;}
+.everything .top .right {height:52px; padding-top:3px;}
+.everything .top .right .reg_table .tag { font-weight:bold;}
+.everything .top .right .reg_table .tag_sm {color:#FFF; font-size:80%; font-weight:bold;}
+.everything .top .right .reg_table .sbt {background-color: #91C313; height:27px; width:86px; color:#fff; font-size:85%; font-weight:bold; border:none; cursor:pointer; }
+.everything .top .right .reg_table .tbl_spacer { margin-left:25px;}
+				
+.everything .middle .sub_header .logo { float:left; padding-left:20px;}
+.everything .middle .sub_header .nodes { float: right; padding-top:10px;}
+.everything .middle .sub_header .nodes .connector { padding-bottom:30px;}
+.everything .middle .sub_header .nodes .node_target { position:absolute; visibility:hidden; z-index:1;} 
+.everything .middle .right { float:left;}
+.everything .middle .right .frm_register { float:left; /*background:url(img/iw/registrate/registrate_fondo.png) no-repeat scroll 0 0*/; width:369px; /*height:287px;*/}
+.everything .middle .right .frm_register .tag { text-align:right; padding-right:10px;}
+.everything .middle .right .frm_register .header {height:40px; text-align:center; padding-top:10px; padding-left:40px;}
+.everything .middle .right .frm_register .header .text { color:#000; font-size:200%; font-weight:bold;}
+
+.everything .middle .right .frm_register .form { height:257px;}
+
+			
+.everything .middle .right .frm_register .text_box {height: 20px; width: 150px; }
+
+.everything .middle .right .frm_register .sbt_location {text-align:right;}
+.everything .middle .right .frm_register .sbt_location .sbt {background-color: #91C313; height:27px; width:86px; color:#fff; font-size:85%; font-weight:bold; border:none; cursor:pointer; }
+.everything .middle .right .frm_register .tag_sm {color:#218c94; font-size:80%; font-weight:bold;}
+			
+.everything .middle .right .frm_register .last_row {float:right; position:relative; padding-right:45px; padding-top:5px;}
+.everything .middle .right .frm_register .last_row .reg_button {background-image:url(../img/iw/registrate/boton_registro.png); background-position:-7px -12px; height:23px; width:86px; color:#e9e6d1; font-size:85%; font-weight:bold;}
+.everything .middle .right .frm_video .header {float:left; margin-top:18px; margin-left:40px;}		
+
+.everything .middle .right .frm_video .iframe {padding-left:5px; height:253px; width:355px;}
+
+.everything .contact { position:fixed; right:0; top:40%;}
+.everything .contact_form {
+
+    /* must be initially hidden */
+    display:none;
+ 
+    /* place overlay on top of other elements */
+    z-index:10000;
+ 
+    /* styling */
+    background-color:#FFF;
+ 
+    width:675px;
+    min-height:200px;
+    border:1px solid #666;
+ 
+    /* CSS3 styling for latest browsers */
+    
+	-moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000; 
+}
+
+.everything .contact_form .close {
+    background-image:url(../img/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
+
+.everything .footer { float:left;}

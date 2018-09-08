@@ -1,0 +1,10 @@
+.result:nth-child(odd){
+	background-color: #CCC;
+}
+.result:nth-child(even){
+	background-color: white;
+}
+.result:hover{
+	background-color: #80ba12;
+	
+}

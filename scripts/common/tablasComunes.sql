@@ -1,0 +1,1 @@
+-- Script para la creación de estructuras comunes a todos los sistemas.

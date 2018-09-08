@@ -1,0 +1,325 @@
+body{
+	font-family: Arial, "Trebuchet MS", Tahoma;
+	/*font-size:11px;*/
+}
+
+
+/* SECCIONES */
+#secundariolog_bckp{
+
+	/*shadow*/
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .5);
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .5);
+
+	/*bordes*/
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+
+	background: #efefef;
+	/*border:1px solid gray;*/
+	height: 390px;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 620px;
+	padding: 5px;	
+
+}
+
+#div_wait_secundariolog{
+	height: 320px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#frsecundariolog{
+	border: 0;
+	/*height: 380px;*/
+	height: 320px;
+ 	width: 590px; 	
+}
+div.tipo{
+	color:gray;
+}
+div.descripcion{
+	font-family: Tahoma,"Trebuchet MS", Arial;
+	color:gray;
+	font-size:20px;
+}
+
+/*TABLAS*/
+tr.listadofila{
+	font-family: Tahoma,"Trebuchet MS", Arial;
+	font-size:11px;
+	height:15px;
+	vertical-align:top;
+        height:20px;
+}
+/*tr.listadofila:hover{
+	background:#f5f5f5;
+	color:#555555;
+	height:20px;
+}*/
+
+/*BORDES INPUT*/
+/*input{
+	font-family: Arial, Tahoma,"Trebuchet MS";
+	font-size:11px;
+	border: thin solid silver;		
+	-moz-border-radius: 4px;	
+	-webkit-border-radius: 4px; 
+	border-radius: 4px;
+}
+textarea{
+	font-family: Tahoma,"Trebuchet MS", Arial;
+	font-size:11px;
+	border: thin solid silver;		
+	
+	-moz-border-radius: 4px;	
+	-webkit-border-radius: 4px; 
+	border-radius: 4px;
+}
+textarea:focus{
+	background:lightgray;
+}*/
+select.campo{
+	font-family: Tahoma,"Trebuchet MS", Arial;
+	font-size:11px;
+	border: thin solid silver;
+
+	/*Solo Safari, Firefox, Chrome*/
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+
+/*BORDES SELECT EN GENERAL*/
+select.seleccion{	
+	font-family: Tahoma,"Trebuchet MS", Arial;	
+	font-size:11px;	
+	text-align:left;		
+}
+
+
+/*FECHAS*/
+img.datepicker{
+	cursor:pointer;
+}
+input.fecha{	
+	border:none;
+	/*border: thin solid silver;*/
+	text-align:center;	
+	background:#efefef;		
+}
+input.fecha:focus{
+	background:lightgray;
+	/*border-bottom: thin solid gray;*/
+}
+input.hora{
+	border:none;
+	text-align:center;
+	height: 16px;
+	background:#efefef;
+}
+select.hora{	
+	font-family: Tahoma,"Trebuchet MS", Arial;	
+	text-align:center;		
+	font-size:11px;
+	/*
+	arrow-color:white;
+	
+	--Solo Safari, Firefox, Chrome--
+	-moz-border-radius: 4px;	
+	-webkit-border-radius: 4px; 	*/
+}
+select.hora:focus{
+	/*background:lightgray;*/
+}
+td.fecha{
+	background:#efefef;
+	border:none; /*thin solid silver;*/
+	
+	/*Solo Safari, Firefox, Chrome*/
+	-moz-border-radius: 4px;	
+	-webkit-border-radius: 4px; 
+	border-radius: 4px;	
+}
+
+table.busqueda{
+	border:thin solid silver;
+}
+tr td{
+	border:none;
+}
+tr.tit_tabla_buscar{
+	border:solid silver;
+	background:url('../img/tit_tabla.png');
+}
+tr.busqueda_fila{
+	background:#f5f5f5;
+	font-size:12px;
+	height:30px;
+}
+tr.busqueda_fila2{
+	background:#efefef;
+	font-size:12px;	
+	height:30px;	
+}
+
+tr.busqueda_fila:hover{
+	background:url('../img/listado.png');	
+}
+tr.busqueda_fila2:hover{
+	background:url('../img/listado.png');		
+}
+a.a_registro{
+	text-decoration:none;
+	color:gray;
+}
+a.a_registro:hover{
+	text-decoration:underline;
+	color:black;
+}
+
+input.input_filtro{
+	height:20px;
+	background:url('../img/preliminar.png') no-repeat ;
+	background-position:right center;
+}
+iframe.opciones{
+	border:none;
+	/*align:center;*/
+	margin-left:200px;
+	margin-top:90px;
+	width:994px;
+	height:500px;
+	/*scroll*/
+}
+
+
+/*ARCHIVOS*/
+input.archivo{
+	font-family: Tahoma,"Trebuchet MS", Arial;
+	font-size:11px;
+	border:none;		
+	
+	/*Solo Safari, Firefox, Chrome*/
+	-moz-border-radius: 4px;	
+	-webkit-border-radius: 4px; 
+	border-radius: 4px;
+}
+input.archivo:focus{
+	background:lightgray;
+
+	/*Solo Safari, Firefox, Chrome*/
+	-moz-border-radius: 4px;	
+	-webkit-border-radius: 4px; 
+	border-radius: 4px;	
+}
+#listaproductos{
+	width:550px !important;
+}
+#tabs-2{
+	width:605px;
+}
+table.tableCosto tr td{
+	border:1px solid #98ac31;
+	font-size:12px;
+	background-color:rgba(152, 175, 49, 0.1);
+	border-radius:5px;
+	padding:0px 10px;
+	text-align: center;
+	/*border-collapse:collapse;*/
+}
+table.tableCosto th{
+	border:1px solid #ccc;
+	font-size:12px;	
+}
+th.titulo{
+	background:#4c4c4c;
+	color:#fff;
+	
+}
+table.tableCosto{
+	width:550px;
+}
+#costoTable{
+	position:relative;
+	left:110px;
+	table-layout: fixed;
+}
+#big_table{
+	width:80%;
+}
+.subtitle{
+	background-color:#eee;
+}
+.margen{
+	position:absolute;
+	right:0px;
+	margin-top:15px;
+}
+.margen_button{
+	width:135px;
+}
+#costo_total{
+	background-color:rgba(152, 175, 49, 0.0);
+	border:none;
+	text-align:center;
+}
+#div_margen_venta{
+	margin-bottom:10px;
+}
+.button_delete{
+	border:none !important;
+	background-color:#fff !important;
+	/*padding:0 !important;*/
+}
+.gasto_indirecto{
+	display:inline-block;
+    background-color: rgba(152, 175, 49, 0.1);
+    border: 1px solid #98ac31;
+	height: 25px;
+	width: 80px;
+}
+.remarcado{
+	border-color:#00ccff;
+}
+
+/*
+.margen_table table, tr, td, th{
+	border:1px solid #eee;
+}
+.margen_table th{
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+} */
+/*
+table.busqueda{
+	font-size:12px;
+	border:none;
+}
+tr.titulo_filtros{
+	background:#ffffff;
+	border:solid silver;	
+}
+tr.titulo_filtros:hover{
+	background:url('img/titulo.png');
+}
+*/
+
+.nmcatalogtable tbody tr td {
+	border: none !important;
+}
+/*.nmcatalogtable .form-control {
+	max-width: 500px;
+	width: auto !important;
+}*/
+.nmfieldcell {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+}

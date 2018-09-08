@@ -1,0 +1,48 @@
+.papel {/*
+display:block;
+position:relative;*/
+margin:10px;
+padding:20px;
+/*font-family:"Courier New";*/
+font-size:120%;
+font-weight:bold;
+
+background:url("../images/cuadriculado.jpg");
+}
+.papel:before, .papel:after {
+-webkit-box-shadow: 0 15px 10px rgba(0,0,0, .7);
+-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+position: absolute; 
+bottom: 15px;
+z-index: -1; /*
+width: 50%;
+height: 20%;*/
+content: "";
+}
+.papel:before {
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg); 
+-o-transform: rotate(-3deg);
+}
+.papel:after {
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+-o-transform: rotate(3deg);
+right: 10px;
+}
+
+
+ 
+     .icon-refresh-animate {
+	animation-name: rotateThis;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes rotateThis {
+	from { transform: scale( 1 ) rotate( 0deg );   }
+	to   { transform: scale( 1 ) rotate( 360deg ); }
+}
+

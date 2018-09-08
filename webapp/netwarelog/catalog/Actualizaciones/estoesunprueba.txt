@@ -1,0 +1,2 @@
+ALTER TABLE `nmimk`.`catalog_estructuras` ADD COLUMN ` utilizaidorganizacion` INTEGER UNSIGNED AFTER `estatus`,
+ ADD COLUMN `linkproceso` VARCHAR(200) AFTER ` utilizaidorganizacion`;

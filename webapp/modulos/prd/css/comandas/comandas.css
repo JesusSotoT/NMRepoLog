@@ -1,0 +1,21 @@
+.button
+{
+	border: 2px outset #80BA12;
+    border-radius: 22px;
+    background-color: #80BA12;
+    margin-top: 2%;
+    text-align: center;
+    height:23px;
+    padding-top: 8px;
+}
+
+.button:active
+{
+    border:inset 2px #80BA12;
+    background-color: #CCC;
+}
+
+div .tooltip
+{
+    margin-right: 2% !important;
+}

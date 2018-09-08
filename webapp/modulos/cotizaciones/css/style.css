@@ -1,0 +1,116 @@
+@charset "UTF-8";	
+	/* CSS Para sistema contable netwarcont version 1.0 */
+	/* Por Ivan Cuenca y Miguel Velazco 13 de Septiembre 2013*/
+	/* Para los jquery UI se usa SMOOTHNESS */
+	
+	body{
+		font-family:Arial, Helvetica, sans-serif;/*Fuente de la pagina-------------------*/
+		font-size:12px;/*Tamaño de fuente-------------------*/
+	}
+	footer{
+		clear: both;
+		position: relative;
+		height: 10%;
+		background:black;
+		color: white;
+		width: 103%;
+		margin: 0;
+		bottom: -8px;
+		left: -2%;
+	}
+
+	[id='title']{	/*Titulo de pagina-------------------*/
+		font-weight:bold;
+		width:797px;
+		background-color:#91C313;/*color verde-------------------*/
+		color:white;
+		padding:5px;
+		font-size:16px;
+	}
+
+	.lateral{	/*Color de fondo de los divs-------------------*/
+		float:left;
+		background-color:#EEEEEE;/*color gris claro-------------------*/
+		width:806px;
+
+	}
+
+	.subtitle{/*Titulo de cajas (divs) laterales -------------------*/
+		background-color:#525154;/*color gris oscuro-------------------*/
+		width:800px;
+		font-weight:bold;
+		padding:3px;
+		
+		color:#fff;
+	}
+
+	table td{
+		font-size:12px;
+	}
+
+	[id='buttons']{
+		width:800px;
+		float:left;
+		margin-top:20px;
+		text-align:right;
+	}
+
+.ui-widget-header/*titulo de pop up UI-------------------*/
+{
+	background-color: #98ac31;
+	background-image:none;
+	color:white;
+	border:0px;
+}
+
+#capturaMovimiento/*fondo de pop up de captura-------------------*/
+{
+	display:none;
+	background-color:#EEEEEE;
+	width:500px;
+	height:500px;
+	border:1px solid #CCC;
+}
+.captura td
+{
+	width:265px;
+	height:30px;
+}
+
+#lista td
+{
+	width:100px;
+	height:30px;
+}
+.captura2 td
+{
+	width:350px;
+	height:30px;
+}
+
+.over{
+background-color:#91C313;
+color:#FFF;
+}
+.out{
+background-color:;
+color:;
+}
+
+#aux{
+	width:100%;
+	height:35%;
+	border:0px solid red;
+	position: relative;
+}
+a.bot
+{
+	text-decoration: none;
+	font-weight: bold;
+	color:black;
+}
+a.bot:hover
+{
+	text-decoration: underline;
+	color:white;
+}

@@ -1,0 +1,41 @@
+#circulopercepciones{
+		 width: 10px;
+  		 height: 10px;
+		background:#6E6E6E; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}
+	#circulodeducciones{
+		 width: 10px;
+  		 height: 10px;
+		background:#A4A4A4; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}
+	#circulobligaciones{
+		 width: 10px;
+  		 height: 10px;
+		background:#D8D8D8; 
+  		-moz-border-radius: 70px; 
+   		-webkit-border-radius: 70px; 
+   		border-radius: 70px;
+	}
+	
+.droptarget {
+    float: left; 
+    width: 90%; 
+    height: 35px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+.over{
+background-color:#91C313;
+color:#FFF;
+}
+.out{
+background-color:;
+color:;
+}
